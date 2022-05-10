@@ -1,5 +1,6 @@
 
 body {
+  max-width: 1300px;
   display:grid;
   gap: 20px;
   text-align: justify;
