@@ -1,23 +1,26 @@
 
 body {
-  max-width: 1300px;
+  max-width: 100%;
   display:grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  background-color: blue;
+}
+
+p {
   text-align: justify;
 }
 
-
-@media only screen and (max-width: 1300px) {
-  body {
-    background-color: blue;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  div > p {
-    font-size:larger;
-  }
-  /*.small,
-  .medium {display: none;}*/
+h3 {
+  text-align: center;
 }
+
+div > p {
+  font-size:larger;
+}
+/*.small,
+  .medium {display: none;}*/
+
   
 @media only screen and (max-width: 768px) {
   body {
